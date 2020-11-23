@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Login::index');
 $routes->post('/login/masuk', 'Login::masuk');
 $routes->post('/register', 'Register::index');
+$routes->get('/success', 'Register::success');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

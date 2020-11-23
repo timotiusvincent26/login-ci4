@@ -58,6 +58,11 @@ class Register extends BaseController
             $validation = \Config\Services::validation();
             return redirect()->to('http://localhost/login-ci4/register')->withInput()->with('validation', $validation);
         }
-        echo 'Berhasil Terdaftar';
+        return view('success_register');
+    }
+
+    public function success()
+    {
+        return view('success_register');
     }
 }
