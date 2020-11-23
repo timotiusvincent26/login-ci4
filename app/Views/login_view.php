@@ -25,8 +25,8 @@
         <div class="transform translate-y-48 sm:translate-y-0 flex justify-center items-center">
             <nav class="mr-64 fixed transform translate-x-64 top-0 right-0 -translate-y-48 sm:translate-y-0">
                 <ul class="flex pt-8">
-                    <li class="mr-2 p-2 rounded-full w-20 text-center font-bold border border-blue-700 duration-300 cursor-pointer bg-gray-200 text-blue-500  hover:bg-gray-500 hover:text-gray-800 hover:border-gray-400" id="login"><a href="<?= base_url(); ?>">Login</a></li>
-                    <li class="mr-2 p-2 rounded-full w-20 text-center font-bold border border-blue-700 duration-300 cursor-pointer bg-blue-500 text-black hover:bg-blue-700 hover:text-gray-300 hover:border-gray-800" id="register"><a href="<?= base_url() . '/register'; ?>">Register</a></li>
+                    <li class="mr-2 p-2 rounded-full w-20 text-center font-bold border border-blue-700 duration-300 cursor-pointer bg-gray-200 text-blue-500  hover:bg-gray-500 hover:text-gray-800 hover:border-gray-400" id="login"><a href="<?= 'http://localhost/login-ci4'; ?>">Login</a></li>
+                    <li class="mr-2 p-2 rounded-full w-20 text-center font-bold border border-blue-700 duration-300 cursor-pointer bg-blue-500 text-black hover:bg-blue-700 hover:text-gray-300 hover:border-gray-800" id="register"><a href="<?= 'http://localhost/login-ci4/register'; ?>">Register</a></li>
                 </ul>
             </nav>
             <form style="width: 450px;" method="POST" action="login/masuk" class="bg-gray-200 py-8 rounded-3xl shadow-2xl">

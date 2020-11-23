@@ -21638,14 +21638,11 @@ video {
           animation: bounce 1s infinite;
 }
 
-.card {
-  max-width: 24rem;
-  border-radius: 0.25rem;
-  overflow: hidden;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
+/* kelas untuk card profil alumni */
+
+/* .card {
+  @apply max-w-sm rounded overflow-hidden shadow-lg mx-2;
+} */
 
 @media (min-width: 640px) {
   .sm\:container {
